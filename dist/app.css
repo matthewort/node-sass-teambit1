@@ -149,7 +149,7 @@ nav {
 
 #uppertitle {
   height: 180px;
-  background-color: #7f14D4;
+  background-color: #ffe7d2;
   display: flex;
   justify-content: center;
   align-items: flex-end;
@@ -165,7 +165,7 @@ nav {
 
 #containerup1 {
   height: 200px;
-  background-color: #4466D4;
+  background-color: #ffe7d2;
   display: flex;
   justify-content: center;
   align-items: flex-end;
@@ -173,7 +173,7 @@ nav {
 
 #containerup2 {
   height: 100px;
-  background-color: #4466D4;
+  background-color: #ffe7d2;
   display: flex;
   justify-content: center;
   align-items: flex-end;
@@ -211,7 +211,7 @@ nav {
 
 #subcontainer1 {
   height: 450px;
-  background-color: #4466D4;
+  background-color: #ffe7d2;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -219,7 +219,7 @@ nav {
 
 #subcontainer2 {
   height: 150px;
-  background-color: #4466D4;
+  background-color: #ffe7d2;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -249,7 +249,7 @@ nav {
 
 #containerdown1 {
   height: 350px;
-  background-color: #7f14D4;
+  background-color: #ffe7d2;
   display: flex;
   justify-content: center;
   align-items: flex-end;
@@ -351,7 +351,7 @@ nav {
 
 #container3 {
   height: 900px;
-  background-color: #7f14D4;
+  background-color: #ffe7d2;
 }
 
 .title3 {
@@ -485,4 +485,3 @@ body {
   background-color: grey;
   font-family: arial;
 }
-
