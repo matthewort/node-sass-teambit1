@@ -1,0 +1,281 @@
+#uppertitle {
+  height: 180px;
+  // background-color: #ffe7d2;
+  background-color: #7f14d4;
+  // border: 2px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+#uppertitleson {
+  // border: 2px solid black;
+  height: 100%;
+  width: 50%;
+  padding-top: 80px;
+  font-size: 30px;
+  text-align: center;
+}
+
+#containerup1 {
+  height: 200px;
+  // background-color: #ffe7d2;
+  background-color: #4466d4;
+  // border: 2px solid blue;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+#containerup2 {
+  height: 100px;
+  // background-color: #ffe7d2;
+  background-color: #4466d4;
+  // border: 2px solid blue;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.threeblock {
+  height: 100%;
+  width: 20%;
+  float: left;
+  // border: 2px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  img {
+    height: 55%;
+  }
+}
+
+.threeblockimage {
+  height: 80%;
+  width: 100%;
+  // border: 2px solid blue;
+}
+
+.descriptionblock {
+  height: 100%;
+  width: 20%;
+  float: left;
+  // border: 2px solid black;
+  text-align: center;
+  padding-top: 20px;
+  p {
+    margin-top: 5px;
+  }
+}
+
+#subcontainer1 {
+  height: 450px;
+  // background-color: #ffe7d2;
+  background-color: #4466d4;
+  // border-bottom: 1.5px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#subcontainer2 {
+  height: 150px;
+  // background-color: #ffe7d2;
+  background-color: #4466d4;
+  // border: 2px solid blue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.subthreeblock {
+  height: 100%;
+  width: 20%;
+  float: left;
+  // border: 2px solid blue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  img {
+    height: 70%;
+  }
+}
+
+.quoteblock {
+  height: 100%;
+  width: 20%;
+  float: left;
+  // border: 2px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#containerdown1 {
+  height: 350px;
+  // background-color: #ffe7d2;
+  background-color: #7f14d4;
+  // border: 2px solid blue;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+// IMMAGINE1
+#feedback1 {
+  height: 750px;
+  background-color: white;
+}
+
+.feedblockleft1 {
+  height: 100%;
+  width: 50%;
+  // border: 2px solid black;
+  float: left;
+  text-align: center;
+  img {
+    height: 65%;
+    margin-top: 80px;
+  }
+}
+
+.feedblockright1 {
+  height: 100%;
+  width: 50%;
+  // border: 2px solid black;
+  float: left;
+}
+
+.subfeedblockrightup1 {
+  height: 50%;
+  // border: 2px solid orange;
+  padding-right: 600px;
+  padding-top: 55px;
+  h1,
+  p {
+    margin-top: 30px;
+  }
+  p {
+    font-size: 20px;
+  }
+}
+
+.subfeedblockrightdown1 {
+  height: 50%;
+  // border: 2px solid orangered;
+  img {
+    height: 70%;
+    padding-left: 100px;
+  }
+}
+
+// IMMAGINE2
+#feedback2 {
+  height: 750px;
+  background-color: white;
+}
+
+.feedblockleft2 {
+  height: 100%;
+  width: 50%;
+  // border: 2px solid black;
+  float: left;
+}
+
+.feedblockright2 {
+  height: 100%;
+  width: 50%;
+  // border: 2px solid black;
+  float: left;
+  text-align: center;
+  img {
+    height: 75%;
+    margin-top: 80px;
+  }
+}
+
+.subfeedblockrightup2 {
+  height: 50%;
+  // border: 2px solid orange;
+  padding-left: 600px;
+  padding-top: 55px;
+  h1,
+  p {
+    margin-top: 30px;
+  }
+  p {
+    font-size: 20px;
+  }
+}
+
+.subfeedblockrightdown2 {
+  height: 50%;
+  // border: 2px solid orangered;
+  img {
+    height: 80%;
+    padding-left: 550px;
+  }
+}
+
+#container3 {
+  height: 900px;
+  // background-color: #ffe7d2;
+  background-color: #7f14d4;
+}
+
+.title3 {
+  height: 20%;
+  // border: 2px solid black;
+  text-align: center;
+  padding-top: 45px;
+  p {
+    margin-top: 15px;
+    font-size: 40px;
+  }
+}
+
+.messagecontainer {
+  height: 65%;
+  // border: 2px solid blue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+}
+
+#message {
+  height: 100%;
+  width: 35%;
+  // border: 2px solid lightblue;
+  background-color: white;
+  padding: 20px;
+  padding-left: 40px;
+  padding-right: 40px;
+  font-size: 18px;
+  p {
+    margin-top: 20px;
+  }
+}
+
+.signcontainer {
+  height: 15%;
+  // border: 2px solid orange;
+  text-align: center;
+}
+
+.signblock {
+  height: 100%;
+  // border: 2px solid lightblue;
+  p {
+    font-size: 25px;
+    margin-bottom: 30px;
+  }
+  h1 {
+    font-size: 45px;
+    margin-bottom: 40px;
+  }
+  ul li {
+    @include navlistyle;
+    font-size: 18px;
+  }
+}

@@ -1,1 +1,1 @@
-node-sass-teambit1
+node-sass-teambit

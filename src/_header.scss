@@ -1,0 +1,149 @@
+#navcontainer {
+    height: 85px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+  }
+
+  nav {
+    height: 100%;
+    width: 75%;
+    display: flex;
+    justify-content: center;
+    background-color: #24343c;
+    // margin-top: 50px;
+  }
+
+  @mixin navlistyle {
+    list-style: none;
+    display: inline;
+  }
+
+  #navleft, #navright {
+    ul li {
+        @include navlistyle;
+    }
+  }
+  
+  #navleft {
+    height: 100%;
+    width: 40%;
+    float: left;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    color: black;
+    background-color: white;
+    font-size: 30px;
+    border-bottom: solid 1.5px black;
+    i {
+        font-size: 30px;
+    }
+    li {
+    &:hover {
+        cursor: pointer;
+    }
+    }
+}
+
+  #navright  {
+    height: 100%;
+    width: 60%;
+    float: left;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    color: black;
+    background-color: white;
+    border-bottom: solid 1.5px black;
+    li {
+      margin-right: 50px;
+      font-size: 20px;
+      &:hover {
+        cursor: pointer;
+      }
+    }
+}
+
+#signup {
+    border: 2px solid darkblue;
+    padding: 10px;
+    border-radius: 5px;
+    color: darkblue;
+    &:hover {
+    cursor: pointer;
+    background-color: darkblue;
+    color: white;
+    }
+}
+
+#headercontainer {
+    height: 630px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bottomheader {
+    height: 100%;
+    width: 75%;
+    // border: 2px solid orange;
+}
+
+.leftheader {
+    float: left;
+    height: 100%;
+    width: 45%;
+    // border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.leftblock {
+    height: 80%;
+    // border: 2px solid lightblue;
+    padding-right: 130px;
+    p {
+        font-size: 25px;
+        margin-bottom: 30px;
+    }
+    h1 {
+        font-size: 45px;
+        margin-bottom: 40px;
+    }
+    ul li {
+        @include navlistyle;
+    }
+}
+
+.signup2 {
+    border: 2px solid darkblue;
+    padding: 5px;
+    border-radius: 5px;
+    color: darkblue;
+    &:hover {
+    cursor: pointer;
+    background-color: darkblue;
+    color: white;
+    }
+}
+
+#email {
+    margin-top: 25px;
+    font-size: 18px;
+}
+
+.rightheader {
+    float: left;
+    height: 100%;
+    width: 55%;
+    // border: 2px solid black;
+    img {
+        height: 80%;
+        width: 100%;
+        padding-top: 40px;
+    }
+}

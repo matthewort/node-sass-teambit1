@@ -1,0 +1,17 @@
+@import "header.scss";
+@import "main.scss";
+@import "footer.scss";
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    height: 100vh;
+    width: auto;
+    background-color: grey;
+    font-family: arial;
+  }
+
+ 
